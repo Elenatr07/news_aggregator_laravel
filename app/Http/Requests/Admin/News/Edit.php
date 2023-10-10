@@ -43,7 +43,7 @@ class Edit extends FormRequest
 
     public function attributes(): array {
         return [
-            'title' => 'наименование',
+            'title' => 'заголовок',
             'description' => 'описание',
             'author' => 'автор',
         ];

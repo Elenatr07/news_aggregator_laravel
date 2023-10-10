@@ -33,7 +33,7 @@ class Create extends FormRequest {
         ];
     }
 
-    public function messages(): array { //в обхоб папки руссификации
+    public function messages(): array { //в обход папки руссификации
         return [
             'required' => 'Это уникальное сообщение только для этой формы! Поле :attribute',
         ];
@@ -41,7 +41,7 @@ class Create extends FormRequest {
 
     public function attributes(): array {
         return [
-            'title' => 'наименование',
+            'title' => 'заголовок',
             'description' => 'описание',
             'author' => 'автор',
         ];
